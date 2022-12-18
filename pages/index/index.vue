@@ -1,7 +1,4 @@
 <template>
-  <!-- <NuxtLayout>
-    <Container>asd</Container>
-  </NuxtLayout> -->
   <NuxtLayout name="landing">
     <Container>
       <main>
