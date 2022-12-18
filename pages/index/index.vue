@@ -1,5 +1,5 @@
 <template>
-  <div>index</div>
+  <NuxtLayout> index </NuxtLayout>
   <!-- <NuxtLayout name="landing">
     <Container>
       <main>
