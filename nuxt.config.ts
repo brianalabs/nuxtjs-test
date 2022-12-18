@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   // build: {
   //   transpile: ["@heroicons/vue"],
   // },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/supabase", "@nuxtjs/tailwindcss"],
   // TODO: https://github.com/nuxt-modules/tailwindcss/issues/565#issuecomment-1320573586
   // NOTE: There is some bug on `@nuxtjs/tailwindcss` package.
   // tailwindcss: {
