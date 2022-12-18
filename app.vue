@@ -20,7 +20,7 @@ useHead({
 
 <template>
   <div>
-    <OpenGraph />
+    <!-- <OpenGraph /> -->
 
     <NuxtPage />
   </div>
