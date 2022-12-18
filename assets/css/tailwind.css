@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --content-padding: @apply p-3;
+}
+
+@layer base {
+  --container-padding: 4rem;
+
+  html {
+    @apply bg-white text-gray-700 antialiased;
+  }
+
+  a {
+    @apply inline-block underline-offset-2 hover:underline;
+  }
+}
