@@ -1,5 +1,7 @@
 <template>
-  <NuxtLayout> index </NuxtLayout>
+  <NuxtLayout>
+    <Container>asd</Container>
+  </NuxtLayout>
   <!-- <NuxtLayout name="landing">
     <Container>
       <main>
