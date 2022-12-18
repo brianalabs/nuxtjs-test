@@ -22,6 +22,11 @@ useHead({
   <div>
     <OpenGraph />
 
-    <NuxtPage />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti
+    aliquam eligendi beatae totam aliquid odio aut repudiandae officiis illo, id
+    eveniet distinctio! Accusamus fugit, est recusandae dolore pariatur
+    incidunt?
+
+    <!-- <NuxtPage /> -->
   </div>
 </template>
