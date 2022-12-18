@@ -1,5 +1,6 @@
 <template>
-  <NuxtLayout name="landing">
+  <div>index</div>
+  <!-- <NuxtLayout name="landing">
     <Container>
       <main>
         <header class="py-10">
@@ -22,5 +23,5 @@
         </header>
       </main>
     </Container>
-  </NuxtLayout>
+  </NuxtLayout> -->
 </template>
