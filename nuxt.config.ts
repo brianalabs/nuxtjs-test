@@ -5,9 +5,9 @@ export default defineNuxtConfig({
   nitro: {
     preset: "vercel-edge",
   },
-  runtimeConfig: {
-    public: ENV,
-  },
+  // runtimeConfig: {
+  //   public: ENV,
+  // },
   // build: {
   //   transpile: ["@heroicons/vue"],
   // },
@@ -20,8 +20,8 @@ export default defineNuxtConfig({
   //     plugins: [tailwindForms()],
   //   },
   // },
-  supabase: {
-    url: ENV.SUPABASE_URL,
-    key: ENV.SUPABASE_KEY,
-  },
+  // supabase: {
+  //   url: ENV.SUPABASE_URL,
+  //   key: ENV.SUPABASE_KEY,
+  // },
 });
