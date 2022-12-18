@@ -1,4 +1,4 @@
-// import tailwindForms from "@tailwindcss/forms";
+import tailwindForms from "@tailwindcss/forms";
 import { ENV } from "./env";
 
 export default defineNuxtConfig({
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   // build: {
   //   transpile: ["@heroicons/vue"],
   // },
-  // modules: ["@nuxtjs/supabase", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss"],
   // TODO: https://github.com/nuxt-modules/tailwindcss/issues/565#issuecomment-1320573586
   // NOTE: There is some bug on `@nuxtjs/tailwindcss` package.
   // tailwindcss: {
