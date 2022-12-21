@@ -17,7 +17,9 @@ useHead({
   script: [],
 });
 
-console.log(supabase);
+onMounted(() => {
+  console.log(supabase);
+});
 
 // supabase.auth.onAuthStateChange((event, session) => {
 //   console.log({ event, session });
