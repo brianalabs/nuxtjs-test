@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { supabase } from "./utils/supabase.utils";
+
 useHead({
   meta: [
     {
@@ -15,6 +17,10 @@ useHead({
     },
   ],
   script: [],
+});
+
+supabase.auth.onAuthStateChange((event, session) => {
+  console.log({ event, session });
 });
 </script>
 
