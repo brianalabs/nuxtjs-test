@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { supabase } from "./utils/supabase.utils";
-
 useHead({
   meta: [
     {
