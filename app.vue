@@ -17,9 +17,11 @@ useHead({
   script: [],
 });
 
-supabase.auth.onAuthStateChange((event, session) => {
-  console.log({ event, session });
-});
+console.log(supabase);
+
+// supabase.auth.onAuthStateChange((event, session) => {
+//   console.log({ event, session });
+// });
 </script>
 
 <template>
